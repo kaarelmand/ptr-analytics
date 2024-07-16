@@ -1,0 +1,19 @@
+[project]
+name = "ptr-analytics"
+version = "0.1.0"
+description = "Analysis of Tamriel Rebuilt and Project Tamriel development data."
+authors = [
+    {name = "Kaarel Mänd", email = "kaarel.mand@protonmail.com"},
+]
+dependencies = []
+requires-python = ">=3.10"
+readme = "README.md"
+license = {text = "MIT"}
+
+[build-system]
+requires = ["pdm-backend"]
+build-backend = "pdm.backend"
+
+
+[tool.pdm]
+distribution = true
